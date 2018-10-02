@@ -38,12 +38,29 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :microsoft_office365_database, 'not_change_will_be_set_by_database', 'not_change_will_be_set_by_database'
 
   # oauth2 database connect
+  # provider :oauth2_database, 'not_change_will_be_set_by_database', 'not_change_will_be_set_by_database', {
+  #   client_options: {
+  #     site: 'https://dbx-oauth.digibitx.com',
+  #     authorize_url: '/oauth/authorize',
+  #     token_url: '/oauth/token',
+  #   },
+  #   token_params: {
+  #     redirect_uri: 'https://support.digibitx.com/auth/oauth2/callback'
+  #   },
+  #   authorize_params: {
+  #     scope: ''
+  #   }
+  # }
+
   provider :oauth2_database, 'not_change_will_be_set_by_database', 'not_change_will_be_set_by_database', {
     client_options: {
-      site: 'https://not_change_will_be_set_by_database',
+      site: 'https://dbx-oauth.digibitx.com',
       authorize_url: '/oauth/authorize',
       token_url: '/oauth/token',
     },
+    authorize_params: {
+      scope: ''
+    }
   }
 
   # weibo database connect
