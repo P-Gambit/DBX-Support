@@ -1,3 +1,6 @@
+# https://github.com/omniauth/omniauth-oauth2/blob/master/README.md
+# https://github.com/zammad/zammad/issues/775#issuecomment-282554174
+
 class Oauth2Database < OmniAuth::Strategies::OAuth2
   option :name, 'oauth2'
 
