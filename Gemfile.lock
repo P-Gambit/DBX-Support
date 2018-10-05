@@ -71,7 +71,7 @@ GEM
       ffi (~> 1.9)
       ffi-compiler (~> 0.1)
     ast (2.4.0)
-    autoprefixer-rails (7.1.6)
+    autoprefixer-rails (8.6.5)
       execjs
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
@@ -294,7 +294,6 @@ GEM
     parallel (1.12.1)
     parser (2.5.0.5)
       ast (~> 2.4.0)
-    pg (0.21.0)
     pluginator (1.5.0)
     power_assert (1.1.1)
     powerpack (0.1.1)
@@ -493,7 +492,7 @@ DEPENDENCIES
   activerecord-session_store
   argon2
   autodiscover!
-  autoprefixer-rails
+  autoprefixer-rails (= 8.6.5)
   biz
   browser
   byebug
@@ -538,7 +537,6 @@ DEPENDENCIES
   omniauth-oauth2
   omniauth-twitter
   omniauth-weibo-oauth2
-  pg
   pre-commit
   pry-rails
   pry-remote

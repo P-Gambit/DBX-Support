@@ -18,7 +18,7 @@ gem 'unicorn', group: :unicorn
 # core - supported ORMs
 gem 'activerecord-nulldb-adapter', group: :nulldb
 gem 'mysql2', group: :mysql
-gem 'pg', group: :postgres
+# gem 'pg', group: :postgres
 
 # core - asynchrous task execution
 gem 'daemons'
@@ -51,7 +51,7 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'autoprefixer-rails'
+gem 'autoprefixer-rails', '8.6.5'
 
 # asset handling - javascript execution for e.g. linux
 gem 'execjs'
