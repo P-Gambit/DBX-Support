@@ -59,7 +59,7 @@ gem 'libv8'
 gem 'therubyracer'
 
 # authentication - provider
-gem 'doorkeeper'
+gem 'doorkeeper',   '~> 4.4.2'
 gem 'oauth2'
 
 # authentication - third party

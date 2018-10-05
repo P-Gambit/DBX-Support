@@ -124,7 +124,7 @@ GEM
     docile (1.1.5)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    doorkeeper (4.4.0)
+    doorkeeper (4.4.3)
       railties (>= 4.2)
     eco (1.0.0)
       coffee-script
@@ -507,7 +507,7 @@ DEPENDENCIES
   dalli
   delayed_job_active_record
   diffy
-  doorkeeper
+  doorkeeper (~> 4.4.2)
   eco
   em-websocket
   eventmachine
@@ -579,4 +579,4 @@ RUBY VERSION
    ruby 2.4.4p296
 
 BUNDLED WITH
-   1.16.2
+   1.16.4
